@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "foundry": {
+      "command": "C:/Users/alvar/AppData/Local/Programs/Python/Python310/python.exe",
+      "args": [
+        "-m",
+        "foundry_mcp.server"
+      ],
+      "env": {
+        "PYTHONPATH": "C:/Users/alvar/Desktop/curso-codecrypto/foundry-mcp",
+        "PATH": "C:/Users/alvar/.foundry/bin;C:/Windows/system32;C:/Windows;C:/Windows/System32/Wbem"
+      }
+    }
+  }
+}

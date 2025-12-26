@@ -1,0 +1,68 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic:
+      - img
+    - banner [ref=e3]:
+      - generic [ref=e5]:
+        - link "SCT" [ref=e7]:
+          - /url: /
+          - img [ref=e9]
+          - generic [ref=e13]: SCT
+        - button "Conectar" [ref=e15] [cursor=pointer]
+    - main [ref=e16]:
+      - generic [ref=e17]:
+        - heading "Supply Chain Tracker" [level=1] [ref=e19]
+        - paragraph [ref=e24]: Sistema de trazabilidad blockchain para cadenas de suministro
+        - generic [ref=e25]:
+          - generic [ref=e26]:
+            - img [ref=e27]
+            - text: Blockchain Seguro
+          - generic [ref=e29]:
+            - img [ref=e30]
+            - text: Trazabilidad Total
+      - generic [ref=e34]:
+        - heading "Conecta tu Wallet" [level=3] [ref=e36]
+        - generic [ref=e37]:
+          - img [ref=e39]
+          - paragraph [ref=e41]: Para usar la aplicación, necesitas conectar tu wallet de MetaMask.
+          - button "Conectar MetaMask" [ref=e42] [cursor=pointer]:
+            - img [ref=e43]
+            - text: Conectar MetaMask
+      - generic [ref=e45]:
+        - generic [ref=e48]:
+          - generic [ref=e49]: 🏭
+          - heading "Productor" [level=3] [ref=e50]
+          - paragraph [ref=e52]: Crea tokens de materias primas y productos en el origen de la cadena
+        - generic [ref=e55]:
+          - generic [ref=e56]: 🔄
+          - heading "Trazabilidad" [level=3] [ref=e57]
+          - paragraph [ref=e59]: Sigue el recorrido completo de cada producto en tiempo real
+        - generic [ref=e62]:
+          - generic [ref=e63]: 🔒
+          - heading "Seguridad" [level=3] [ref=e64]
+          - paragraph [ref=e66]: Blockchain garantiza transparencia e inmutabilidad de datos
+    - contentinfo [ref=e67]:
+      - generic [ref=e68]:
+        - generic [ref=e69]:
+          - generic [ref=e70]:
+            - heading "Supply Chain Tracker" [level=4] [ref=e71]
+            - paragraph [ref=e72]: Trazabilidad blockchain para cadenas de suministro transparentes y seguras.
+          - generic [ref=e73]:
+            - heading "Enlaces" [level=4] [ref=e74]
+            - list [ref=e75]:
+              - listitem [ref=e76]:
+                - link "Documentación" [ref=e77]:
+                  - /url: "#"
+          - generic [ref=e78]:
+            - heading "Tecnología" [level=4] [ref=e79]
+            - generic [ref=e80]:
+              - generic [ref=e81]: Ethereum
+              - generic [ref=e82]: Solidity
+              - generic [ref=e83]: Web3
+              - generic [ref=e84]: Next.js
+        - paragraph [ref=e86]: © 2025 Supply Chain Tracker. Powered by Blockchain Technology.
+  - alert [ref=e87]
+```
