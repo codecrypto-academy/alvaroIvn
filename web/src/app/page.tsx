@@ -396,7 +396,14 @@ export default function HomePage() {
               <h4 className="font-semibold text-base text-gray-900">Enlaces</h4>
               <ul className="space-y-1 text-sm text-gray-600">
                 <li>
-                  <a href="#" className="hover:text-blue-600 transition-colors">Documentación</a>
+                  <a
+                    href="https://github.com/codecrypto-academy/alvaroIvn/tree/pfm-25-supplyChainTracker"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-blue-600 transition-colors"
+                  >
+                    Documentación
+                  </a>
                 </li>
               </ul>
             </div>
